@@ -1,4 +1,4 @@
-School Management system.
+School Management system. Made for Python Programming Language class.
 
 Login:
 User: user1
