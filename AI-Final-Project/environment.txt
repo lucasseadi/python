@@ -1,0 +1,41 @@
+conda 23.3.1
+python 3.9.16
+
+py39v3:
+conda install -c anaconda numpy
+pip install torch
+pip install torchaudio
+pip install speechbrain transformers
+pip install torchvision
+pip install chardet
+pip install requests
+pip install urllib3
+conda install -c pytorch torchaudio
+pip install ray
+conda install -c anaconda pandas
+pip install pyarrow
+pip install pydub
+conda install -c pytorch torchtext
+pip install ffmpeg-downloader
+ffdl install --add-path
+sudo apt install ffmpeg
+pip install -U ray
+pip install -U tensorboardx
+
+pip install google-api-python-client
+pip install pytube
+pip install selenium
+
+pip install SpeechRecognition
+pip install librosa
+
+
+LIBRISPEECH class:
+https://pytorch.org/audio/stable/_modules/torchaudio/datasets/librispeech.html
+
+librispeech pre-trained model:
+- https://github.com/SeanNaren/deepspeech.pytorch/releases/tag/v1.1
+- https://github.com/SeanNaren/deepspeech.pytorch/releases/download/v1.1/librispeech_pretrained.pth
+
+commonvoice pre-trained model:
+- https://huggingface.co/speechbrain/asr-wav2vec2-commonvoice-en
